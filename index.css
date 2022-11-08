@@ -221,7 +221,7 @@ body{
     overflow-x: hidden;
 }
 
-/*This hides the vertical scrollbar in maximum browsers but keeps the scrolling funtionality*/
+/*This hides the scrollbar in most browsers but keeps the scrolling functionality*/
 body::-webkit-scrollbar{
     display: none;
 }
