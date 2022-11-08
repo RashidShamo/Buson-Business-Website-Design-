@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 15px 0px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navlinks li{
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
+a{
+    color: midnightblue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover{
+    color: snow;
+    background-color: rgb(18, 18, 158);
+    border-radius: 20px;
+}
+
+.contact, .learn{
+    border: none;
+    outline: none;
+    padding: 10px 25px 10px 25px;
+    color: snow;
+    background-color: indianred;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 5px 5px 0 grey;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: padding 0.5s;
+}
+
+.contact:hover, .learn:hover{
+    padding: 10px 30px 10px 30px;
+}
+
+.container{
+    background-image: url('img/img.jpg');
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -6vh;
+}
+
+.details{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.welcome{
+    text-transform: uppercase;
+    color: indianred;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bigtitle{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(0, 0,117);
+    text-transform: uppercase;
+    width: 30%;
+    margin: 3px 0 25px 0;
+    line-height: 45px;
+}
+
+.seeMoreContainer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.leftline, .rightline{
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 50px;
+    height: 2px;
+}
+
+.seeMore{
+    margin: 0 5px 0 5px;
+    font-size: 14px;
+    font-size: 600;
+    color: grey;
+}
+
+.cardContainer{
+    width: 75%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card, .specialcard{
+    width: 15vw;
+    height: 40vh;
+    margin-bottom: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0;
+    border-radius: 5px;
+    padding: 5px;
+    transition: border 0.15s;
+}
+
+.specialcard{
+    border: 4px solid indianred;
+}
+
+.card:hover{
+    border: 3px solid indianred;
+}
+
+.cardImg{
+    width: 100%;
+    height: 45%;
+}
+
+.cardTitle{
+    font-size: 18px;
+    margin: 15px 0 10px 0;
+}
+
+.cardInfo, .specialcardInfo{
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: 500;
+    color: rgb(50, 50, 50);
+}
+
+.specialcardTitle{
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+    margin: 15px 0 10px 0;
+}
+
+.line{
+    height: 3px;
+    width: 35%;
+    background-color: indianred;
+    margin: 15px 0 15px 0;
+}
+
+.profile{
+    font-size: 11px;
+    font-weight: bold;
+    margin: 15% 10px 0 5px;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 117);
+}
+
+.arrow{
+    margin: 4px 0 0 5px;
+}
+
+.footer{
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(25, 25, 112, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: snow;
+    font-size: 14px;
+}
+
+.address, .email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*This hides the vertical scrollbar in maximum browsers but keeps the scrolling funtionality*/
+body::-webkit-scrollbar{
+    display: none;
+}
